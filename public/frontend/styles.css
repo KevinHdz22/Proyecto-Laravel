@@ -1,0 +1,136 @@
+label {
+    display: inline-block;
+    width: 100px; 
+    text-align: right;
+    margin-right: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 200px; 
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+#login-h1{
+    margin-left: 42%;
+}
+
+h1{
+    margin-left: 90px;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+
+thead th {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+tbody td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+tbody td button {
+    margin-left: 30px;
+}
+
+#login-form {
+    max-width: 400px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+
+#login-form label {
+    display: block; 
+    margin-bottom: 5px; 
+    text-align: center;
+}
+
+
+#login-form input[type="email"],
+#login-form input[type="password"] {
+    width: 92%; 
+    padding: 8px; 
+    margin-bottom: 10px;
+    border: 2px solid #ccc; 
+    border-radius: 3px;
+}
+
+#login-form button {
+    width: 100%; 
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#login-form button:hover {
+    background-color: #0056b3; 
+}
+
+
+
+
+#edit-user-form {
+    display: inline-block;
+    border: 2px solid #ccc; 
+    padding: 20px; 
+    border-radius: 10px; 
+    background-color: #f9f9f9; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin: 0 auto; 
+}
+
+#create-user-form {
+    display: inline-block;
+    border: 2px solid #ccc; 
+    padding: 20px; 
+    border-radius: 10px; 
+    background-color: #f9f9f9; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin: 0 auto; 
+}
+
+
+#actualizar-btn {
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: white; 
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-left: 130px;
+}
+
+.button-container {
+    display: initial; 
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Estilos para el botón */
+.button-container button {
+    width: 100%; 
+    max-width: 200px; 
+    margin-left: 10%;
+}
+
+
